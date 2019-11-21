@@ -1,0 +1,7 @@
+from random import* 
+m=[randint(-1000,1000) for i in range(20)] 
+print (m) 
+min = m[0] 
+for i in range(len(m)): 
+ if m[i]<min: min=m[i] 
+print ('Минимальный элемент:',min)
