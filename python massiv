@@ -1,0 +1,7 @@
+from random import* 
+m=[randint(-1000,1000) for i in range(20)] 
+print(m) 
+max = m[0] 
+for i in range(len(m)): 
+ if m[i]>max: max=m[i] 
+print('Максимальный элемент:',max)
